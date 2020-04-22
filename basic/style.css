@@ -1,0 +1,95 @@
+/*Styles for TheresaResume*/
+
+/*Will format all id'd text*/
+#container {
+  color: #444;
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Open Sans', Arial, sans-serif;
+  padding: 0 0 50px 10px;
+}
+
+/*my name*/
+.name {
+  border-bottom: 1px solid #33485e;
+  color: #1A1F2B;
+  font-size: 3em;
+  font-weight:200;
+  margin: 0 auto;
+  padding-top:20px;
+  text-align:center;
+  text-transform:uppercase;
+  width: 60%;
+  min-width: 300px;
+}
+
+/*my title, MA candidate*/
+.title {
+  color: #33485e;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0 40px 0;
+  width: 100%;
+}
+
+/*Contact Info*/
+.menu {
+  text-align: center;
+}
+
+.menu li {
+  display:inline;
+  padding: 0 5px 0 5px;
+  font-size:16px;
+}
+
+/* Section Titles */
+.sectionheader {
+  background-color:#33485e;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 20px 0 10px 0;
+  padding-left:5px;
+  text-transform: uppercase;
+  width: 70%;
+  min-width: 300px;
+}
+
+
+.jobtitle {             /*job titles*/
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-top: 15px;
+}
+
+.organization {         /*job companies*/
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.date {                /* job dates */
+  font-weight: 400;
+  font-size: 1em;
+  font-style: italic;
+  margin: 2px 0 0 0;
+}
+
+.description {       /*Job Descriptions*/
+  margin: 10px 80px 10px 40px;
+}
+
+.degrees {
+  margin: 5px 0 0 10;
+  font-size: 20px;
+}
+
+.do {              /*lis in education, skills*/
+  margin: 25px 80px 0 10px;
+  font-size: 20px;
+}
+
+li {
+  margin: 0 0 10px 0;
+}

@@ -1,0 +1,198 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink to fit=no">
+
+    <title>Theresa's Resume</title>
+
+    <meta name="description" content="Bootstrap Resume Sheet">
+    <meta name="author" content="Theresa Diffendal">
+
+    <!--Importing a font from Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!--Calling CSS Style Sheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+
+<body>
+  <div id="container" style="font-family: 'Montserrat', sans-serif;">
+
+    <!--anchor for scrolltop-->
+    <a name="top"></a>
+
+<!--search function-->
+  <nav class="navbar navbar-expand-lg navbar-light">
+   <form class="form-inline my-2 my-lg-0">
+     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+   </form>
+  </nav>
+
+  <!--Jumbotron hero content-->
+  <div class="jumbotron">
+
+    <!--Scroll to top arrow-->
+    <button id="scrolltop" onclick="location.href = '#top';" title="Go to top">
+      <img src="scrolltop.png" alt="up arrow" height="auto" width="20em">
+    </button>
+
+
+  <!--Name and Title-->
+    <div class="name">Theresa Diffendal</div>
+    <p><div class="title">
+      Data Journalist <br>
+      M.J. Candidate at Philip Merrill College of Journalism
+    </div></p>
+
+    <!--Contact Info-->
+    <p><div class="row">
+        <div class="col-md-3"><input type="button" class="btn btn-info" value="Email" onclick="location.href = 'mailto:tdiff@umd.edu';"/></div>
+        <div class="col-md-3"><input type="button" class="btn btn-info" value="LinkedIn" onclick="location.href = 'https://www.linkedin.com/in/diffendalt/';"/></div>
+        <div class="col-md-3"><input type="button" class="btn btn-info" value="Twitter" onclick="location.href = 'https://twitter.com/theresarose_';"/></div>
+        <div class="col-md-3"><input type="button" class="btn btn-info" value="GitHub" onclick="location.href = 'https://github.com/tdiffendal';"/></div>
+      </div></p>
+
+      <!--Create Buttons to link to other sections instead of in nav bar-->
+      <p><div class="row">
+        <div class="col-md-3"><input type="button" class="btn btn-info" value="Experience" onclick="location.href = '#experience';"/></div>
+        <div class="col-md-3"><input type="button" class="btn btn-info" value="Clips" onclick="location.href = '#clips';"/></div>
+        <div class="col-md-3"><input type="button" class="btn btn-info" value="Education" onclick="location.href = '#education';"/></div>
+        <div class="col-md-3"><input type="button" class="btn btn-info" value="Awards/Skills" onclick="location.href = '#skills';"/></div>
+      </div></p>
+  </div>
+
+  <!--Banner
+  <img src="resume-banner.jpg" alt="Photo of Theresa Diffendal's banner with caption 'I'll chase any lead'" width="100%">
+  -->
+
+
+  <!--Job experience-->
+ <div class="sectionheader"><a name="experience">Experience:</a></div>
+ <div class="jobs">
+
+   <div class="jobtitle">Communications Assistant</div>
+   <div class="organization">UMD School of Public Health</div>
+   <div class="date">August &#9472; December 2019</div>
+     <p class="description">Promoted the School of Public Health’s achievements through news articles, social media posts, students' profiles and website management. Assisted in overseeing communications events and press conferences.</p>
+
+   <div class="jobtitle">Data Reporter</div>
+   <div class="organization">Howard Center for Investigative Reporting</div>
+   <div class="date">June &#9472; August 2019</div>
+     <p class="description">Part of the data team for the award-winning investigation <a href="https://cnsmaryland.org/interactives/summer-2019/code-red/index.html">Code Red: Baltimore's Climate Divide</a>. Found, cleaned and analyzed large data sets using R to identify trends and support reporting. Generated memos to highlight and convey information from data, articles and interviews.</p>
+
+   <div class="jobtitle">Freelance Reporter</div>
+   <div class="organization">WMUC and Greenbelt News Review</div>
+   <div class="date">September 2018 &#9472; May 2019</div>
+    <p class="description">Original, published reporting on weather systems, violin-making, protests and more. Print stories published to <a href="http://www.greenbeltnewsreview.com/"> Greenbelt News Review's website</a> and <a href="http://www.wmucnews.umd.edu.com/">WMUC</a> audio packages aired Mondays at 6 p.m. on 88.1 FM.</p>
+
+    <div class="jobtitle">Editor-in-Chief</div>
+    <div class="organization">Bi-College News</div>
+    <div class="date">2017 &#9472; 2018</div>
+     <p class="description">Edited articles, taught AP style, held meetings and assigned topics to 20-30 writers. Led editors in creating print editions of the newspaper using InDesign. Managed and updated the website,
+<a href="http://bicollegenews.com/"> The Bi-College News</a></p>
+
+    <div class="jobtitle">Peer Writing Tutor</div>
+    <div class="organization">Bryn Mawr College</div>
+    <div class="date">September 2017 &#9472; December 2017</div>
+      <p class="description">Taught students, primarily ESL and first-year students, collegiate-level writing skills such as developing writing fundamentals, constructing a thesis, structuring the essay, making sense of material and working on a long-term project .</p>
+
+    <div class="jobtitle">Staff Writer, Editor, and Social Media Manager</div>
+    <div class="organization">Au'Loni Magazine</div>
+    <div class="date">May 2017 &#9472; September 2017</div>
+      <p class="description">Pitched and wrote articles concerning entrepreneurship, small-business owners, and business the entrepreneurial <a href="http://www.aulonimagazine.com/">online</a> magazine Au'Loni. Managed the magazine's Facebook and Instagram accounts by posting original and entrepreneur-related content and engaging with followers.</p>
+
+  </div>
+
+  <!--Sample clips section-->
+    <div class="sectionheader"><a name="clips">Clips:</a></div>
+    <div class="row clips">
+
+      <div class="col-md-6 ">
+        <a href="http://greenbeltnewsreview.com/issues/GNR20180927.pdf"><img src="anderson1.jpg" alt="Photo of violin in process by violin maker Laurence Anderson" width="90%" height="auto"></a>
+        <p class="description-clips" width="70%">New Artist-in-residence Is Music to Greenbelt&#39;s Ears</p>
+      </div>
+
+    <div class="col-md-6">
+      <a href="https://www.greenbeltonline.com/amidst-a-lively-festival-a-musing-on-mortality/"><img src="doran-art.jpg" alt="Jim Doran's wall-length comic about a day in the cyclical life of a skeleton" width="90%" height="50%"></a>
+      <p width="70%" class="description-clips">Amidst a Lively Festival, a Musing on Mortality</p>
+    </div>
+
+    <div class="col-md-6">
+      <a href="http://greenbeltnewsreview.com/issues/GNR20180920.pdf"><img src="wunderground1.jpg" alt="Photo of a Greenbelt resident's personal weather system" width="90%" height="auto"></a>
+      <p class="description-clips">Weather-wise Greenbelters Watch for Wunderground</p>
+    </div>
+
+    <div class="col-md-6">
+      <audio controls>
+        <source src="sunday-kavanaugh-protests.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p class="description-clips" width="70%">Protests at the Supreme Court agianst Justice Brett Kavanaugh. Produced for and aired on WMUC News</p>
+    </div>
+  </div>
+
+
+  <!--Education Section-->
+  <div class="sectionheader"><a name="education">Education:</a></div>
+    <ul class="do">
+      <li>Master of Arts, Journalism, Philip Merrill College of Journalism at University of Maryland, M.A. Candidate May 2020</li>
+      <li>Bachelor of Arts, Comparative Literature, Bryn Mawr College, May 2018</li>
+        <ul>
+          <li>Graduated <i>magna cum laude</i></li>
+        </ul>
+      <li>Semester Study Abroad, Human Rights and Multiculturalism, <a href="https://studyabroad.sit.edu/programs/semester/spring-2019/mor/">School for International Training in Morocco</a>, August &#9472; December 2016</li>
+        <ul>
+          <li>Presented collaborative assignments and oral projects on local and national human rights issues based on interviews conducted in French, Arabic and English. Designed and executed an independent research project culminating in a research paper.</li>
+        </ul>
+    </ul>
+
+<div class="sectionheader"><a name="skills">Awards:</a></div>
+  <div class="jobs">
+    <div class="jobtitle"><a href="https://cnsmaryland.org/interactives/summer-2019/code-red/index.html">Code Red: Baltimore's Climate Divide</a></div>
+    <ul class="do">
+      <li><a href="https://scripps.com/foundation/news/scripps-howard-awards-announce-2019-winners-recognize-exceptional-american-journalism/">2019 Scripps Howard Topic of the Year Award</a></li>
+      <li><a href="https://nationalpress.org/awards/innovative-storytelling-award/">2019 National Press Foundation's Innovative Storytelling Award</a></li>
+      <li><a href="https://www.ire.org/awards/philip-meyer-awards/2019-philip-meyer-award-winners">2019 Philip Meyer Journalism Award: Honorable Mention</a></li>
+      <li>Finalist for <a href="https://merrill.umd.edu/2020/03/npr-howard-center-cns-climate-change-collaboration-named-finalist-for-nihcm-digital-media-award/">2019 National Institute for Health Care Management's Digital Media Award</a></li>
+    </ul>
+  </div>
+
+<!--Skills List-->
+<div class="sectionheader">Skills:</div>
+  <ul class="do">
+    <li> Experience with: Adobe Suite, including InDesign, Photoshop, and Audition; HTML, CSS, R, Python, SQL</li>
+    <li>Public communications and management experience on social media such as Facebook, Instagram, Twitter</li>
+    <li>Experience with journalistic writing and knowledge of Associated Press Style</li>
+    <li>Language competency: French (conversational), Arabic (beginner), German (beginner)</li>
+  </ul>
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS --> <!--how you set up bootstrap-->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    </div>
+
+  <footer class="footer", style="position:relative">
+    <br>
+      <p style="position: absolute; bottom:0; right:0; text-align: right;">Copyright Theresa Diffendal 2020 &nbsp;</p>
+    <p><b>Contact me:</b>
+      <ul>
+        <li>tdiff@umd.edu</li>
+        <li>theresarose0830@gmail.com</li>
+      </ul>
+    <br>
+
+  </footer>
+
+  </body>
+</html>
